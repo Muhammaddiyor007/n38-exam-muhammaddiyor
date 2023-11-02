@@ -1,0 +1,109 @@
+.advice-text,
+.advice-title {
+    letter-spacing: .20000000298023224px
+}
+
+:root {
+    --primary-color: #ffa62b;
+    --secondary-color: #737373;
+    --blue-color: #00a0c1;
+    --black-color: #000000;
+    --light-color: #ffffff;
+    --text-color: #252b42
+}
+
+.advice {
+    margin-top: 90px;
+    text-align: center;
+    padding-bottom: 50px
+}
+
+.advice-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    color: var(--text-color);
+    margin-bottom: 10px
+}
+
+.advice-text {
+    width: 100%;
+    max-width: 470px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color: var(--secondary-color);
+    margin: auto auto 45px
+}
+
+.advice-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    gap: 15px
+}
+
+.advice-card {
+    width: 232px;
+    height: auto;
+    background-color: var(--light-color);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.advice-card-content {
+    padding: 30px;
+    height: auto
+}
+
+.advice-card-title {
+    width: 100%;
+    max-width: 130px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: .10000000149011612px;
+    text-align: left;
+    color: var(--text-color);
+    margin-bottom: 15px
+}
+
+.advice-card-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: .20000000298023224px;
+    text-align: left;
+    color: var(--secondary-color)
+}
+
+.advice-card img {
+    width: 100%
+}
+
+@media screen and (max-width:768px) {
+    .advice-cards {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        gap: 30px
+    }
+}

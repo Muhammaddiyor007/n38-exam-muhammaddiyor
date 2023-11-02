@@ -1,0 +1,113 @@
+.about-card-title,
+.about-text,
+.about-title {
+    letter-spacing: .20000000298023224px
+}
+
+:root {
+    --primary-color: #ffa62b;
+    --secondary-color: #737373;
+    --blue-color: #00a0c1;
+    --black-color: #000000;
+    --light-color: #ffffff;
+    --text-color: #252b42
+}
+
+.about {
+    margin-top: 200px;
+    text-align: center;
+    padding-bottom: 30px
+}
+
+.about-title {
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    margin-bottom: 10px;
+    color: var(--text-color)
+}
+
+.about-text {
+    width: 100%;
+    max-width: 500px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    margin: auto auto 50px;
+    color: var(--secondary-color)
+}
+
+.about-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 15px
+}
+
+.about-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 230px;
+    height: auto;
+    padding: 30px 0;
+    background-color: var(--light-color)
+}
+
+.about-card:hover {
+    -webkit-box-shadow: 0 4px 4px 0 #00000040;
+    box-shadow: 0 4px 4px 0 #00000040
+}
+
+.about-card-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    text-align: left;
+    color: var(--text-color);
+    margin: 10px 0
+}
+
+.about-card-text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: .10000000149011612px;
+    text-align: center;
+    color: var(--secondary-color);
+    padding: 0 10px
+}
+
+@media screen and (max-width:768px) {
+    .about {
+        margin-top: 100px
+    }
+
+    .about-cards {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 30px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .about-text {
+        max-width: 225px
+    }
+}

@@ -1,0 +1,76 @@
+:root {
+  --primary-color: #ffa62b;
+  --secondary-color: #737373;
+  --blue-color: #00a0c1;
+  --black-color: #000000;
+  --light-color: #ffffff;
+  --text-color: #252b42;
+  --dark-blue: #16697a;
+}
+
+.footer {
+  background-color: var(--dark-blue);
+  padding-top: 50px;
+}
+
+.footer-body {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-nav-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: var(--light-color);
+  margin-bottom: 20px;
+}
+
+.footer-nav-link {
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  gap: 10px;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: var(--light-color);
+}
+
+.footer-social {
+  background-color: var(--light-color);
+  margin-top: 50px;
+  display: flex;
+  padding: 25px 0px;
+}
+
+.footer-social-body-text {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: var(--secondary-color);
+}
+
+.footer-social-body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
